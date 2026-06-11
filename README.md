@@ -48,12 +48,12 @@ Each item is characterized by a peak **location** (`delta`) along the valence di
 
 ## Reproducing the figures
 
-```r
-# From within this directory, in an R session:
-source("HUME_analyses_and_plots.R")
-```
+`HUME_analyses_and_plots.R` is an **interactive** script, meant to be run step by step from
+within this directory (e.g. line by line in an R session or IDE) rather than sourced as a
+whole: it opens `x11()` graphics windows, and some figures involve manual adjustments before
+being exported.
 
-The script:
+Run interactively, the script:
 
 1. Loads `emotions-2024-2026.csv` and splits it into pre/post item blocks.
 2. Sources `BUM.R` and fits the unfolding model to the pre-induction data, then to each
