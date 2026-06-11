@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper below."
+title: "HUME-valence: data, Beta Unfolding Model code, and figure-reproduction script"
+authors:
+  - family-names: Noel
+    given-names: Yvonnick
+license: MIT
+repository-code: "https://github.com/yvonnicknoel/HUME-valence"
+preferred-citation:
+  type: article
+  title: "Emotional valence as a control variable in a generic valence-arousal-dominance dynamical system"
+  authors:
+    - family-names: Noel
+      given-names: Yvonnick
+  journal: "Affective Science"
+  year: 2026
+  notes: "Accepted; in press. Special issue: The nature of valence: Pluses, minuses and progress."
