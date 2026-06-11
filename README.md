@@ -40,12 +40,8 @@ Induction-group sizes: Angry 62, Fear 72, Happy 67, Neutral 61, Sad 64.
 
 > Noel, Y. (2014). A beta unfolding model for continuous bounded responses. *Psychometrika*, 79(4), 647–674.
 
-This version adds:
-
-1. **Gaussian priors** on the item parameters (`delta`, `lambda`, `tau`) for MAP estimation,
-   regularizing extreme item locations far from the person distribution.
-2. A **censored (Tobit-like) likelihood** for boundary responses (0 and 1), so boundary
-   observations contribute `P(X ≤ ε)` or `P(X ≥ 1−ε)` rather than an infinite/zero Beta density.
+This version adds **Gaussian priors** on the item parameters (`delta`, `lambda`, `tau`) for
+MAP estimation, regularizing extreme item locations far from the person distribution.
 
 Each item is characterized by a peak **location** (`delta`) along the valence dimension, an
 **acceptability/log-slope** parameter (`lambda`), and a **dispersion** parameter (`tau`).
