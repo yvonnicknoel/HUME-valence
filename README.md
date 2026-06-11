@@ -44,7 +44,7 @@ This version adds **Gaussian priors** on the item parameters (`delta`, `lambda`,
 MAP estimation, regularizing extreme item locations far from the person distribution.
 
 Each item is characterized by a peak **location** (`delta`) along the valence dimension, an
-**acceptability/log-slope** parameter (`lambda`), and a **dispersion** parameter (`tau`).
+**acceptability** parameter (`lambda`), and a **dispersion** parameter (`tau`).
 
 ## Reproducing the figures
 
