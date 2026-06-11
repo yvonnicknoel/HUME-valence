@@ -2,7 +2,7 @@
 
 Data, model code, and figure-reproduction script accompanying the paper:
 
-> Noel, Y. (in press). *Valence as a dynamic stress signal: A heterogeneous unfolding model of emotion.* **Affective Science** (special issue on valence).
+> Noel, Y. (in press). *Emotional valence as a control variable in a generic valence-arousal-dominance dynamical system.* **Affective Science**, special issue *"The nature of valence: Pluses, minuses and progress"*.
 
 The manuscript argues that emotional **valence** acts as a dynamic stress signal — a control
 variable — rather than a static hedonic dimension, with arousal and dominance behaving as
